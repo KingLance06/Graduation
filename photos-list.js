@@ -349,14 +349,32 @@ const PHOTOS = [
     "caption": ""
   },
   {
-    "type": "video",
-    "src": "photos/family/family-025.mp4",
+    "type": "image",
+    "src": "photos/family/family-025.jpg",
+    "category": "family",
+    "caption": ""
+  },
+  {
+    "type": "image",
+    "src": "photos/family/family-026.jpg",
+    "category": "family",
+    "caption": ""
+  },
+  {
+    "type": "image",
+    "src": "photos/family/family-027.jpg",
     "category": "family",
     "caption": ""
   },
   {
     "type": "video",
-    "src": "photos/family/family-026.mp4",
+    "src": "photos/family/family-028.mp4",
+    "category": "family",
+    "caption": ""
+  },
+  {
+    "type": "video",
+    "src": "photos/family/family-029.mp4",
     "category": "family",
     "caption": ""
   }
