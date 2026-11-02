@@ -2,6 +2,18 @@
 const PHOTOS = [
   {
     "type": "image",
+    "src": "photos/family/family-025.jpg",
+    "category": "family",
+    "caption": ""
+  },
+  {
+    "type": "image",
+    "src": "photos/family/family-027.jpg",
+    "category": "family",
+    "caption": ""
+  },
+  {
+    "type": "image",
     "src": "photos/cousins/cousins-001.jpg",
     "category": "cousins",
     "caption": ""
@@ -350,19 +362,7 @@ const PHOTOS = [
   },
   {
     "type": "image",
-    "src": "photos/family/family-025.jpg",
-    "category": "family",
-    "caption": ""
-  },
-  {
-    "type": "image",
     "src": "photos/family/family-026.jpg",
-    "category": "family",
-    "caption": ""
-  },
-  {
-    "type": "image",
-    "src": "photos/family/family-027.jpg",
     "category": "family",
     "caption": ""
   },
