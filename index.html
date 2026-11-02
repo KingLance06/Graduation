@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Graduation 2026</title>
+  <meta name="description" content="My graduation memories with family, cousins and friends." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+  <audio id="bgm" loop preload="auto"></audio>
+
+  <!-- Intro -->
+  <section id="intro" class="intro">
+    <div class="intro-inner">
+      <p class="eyebrow" id="siteDate"></p>
+      <h1 id="siteTitle"></h1>
+      <div class="hero-photo"><img id="heroPhoto" alt="Graduation portrait" /></div>
+      <h2 id="siteName"></h2>
+      <p class="sub" id="siteSub"></p>
+      <p class="msg" id="siteMsg"></p>
+      <button id="startBtn" class="btn-primary">▶ Start Slideshow</button>
+    </div>
+  </section>
+
+  <!-- Slideshow -->
+  <main id="stage" class="stage" aria-label="Photo slideshow">
+    <div class="bg" id="bg"></div>
+
+    <header class="topbar">
+      <div class="brand" id="brand"></div>
+      <nav class="tabs" id="tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="family">Family</button>
+        <button class="tab" data-filter="cousins">Cousins</button>
+        <button class="tab" data-filter="friends">Friends</button>
+      </nav>
+    </header>
+
+    <div class="slides" id="slides"></div>
+
+    <button class="nav prev" id="prev" aria-label="Previous">‹</button>
+    <button class="nav next" id="next" aria-label="Next">›</button>
+
+    <div class="caption">
+      <span class="badge" id="badge"></span>
+      <p id="caption"></p>
+    </div>
+
+    <div class="controls">
+      <button id="play" aria-label="Play or pause">⏸</button>
+      <button id="mute" aria-label="Mute or unmute video">🔊</button>
+      <button id="music" aria-label="Music on or off">🎵</button>
+      <span id="counter">1 / 1</span>
+      <button id="fs" aria-label="Fullscreen">⛶</button>
+    </div>
+
+    <div class="thumbs" id="thumbs"></div>
+    <div class="progress"><span id="bar"></span></div>
+  </main>
+
+  <script src="photos.js"></script>
+  <script src="photos-list.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
